@@ -5,7 +5,7 @@ const AboutUs = () => {
     <div class="container mt-32 mx-auto p-4 md:p-0">
       <div class="shadow-lg flex flex-wrap w-full lg:w-4/5 mx-auto">
         <div class="bg-cover bg-bottom border w-full md:w-1/3 h-64 md:h-auto relative">
-          <img src="https://firebasestorage.googleapis.com/v0/b/bito-b4105.appspot.com/o/131217146_4100893749939702_6644574557095375830_n.jpeg?alt=media&token=28ff89a1-3b2d-46d8-a809-dfc48c7622b7" />
+          <img src="https://firebasestorage.googleapis.com/v0/b/bito-b4105.appspot.com/o/131217146_4100893749939702_6644574557095375830_n.jpeg?alt=media&token=28ff89a1-3b2d-46d8-a809-dfc48c7622b7" alt="picture oscar" layout="responsive"/>
           <div class="absolute text-xl">
             <i class="fa fa-heart text-white hover:text-red-light ml-4 mt-4 cursor-pointer"></i>
           </div>

@@ -4,6 +4,7 @@ import More from "../components/more";
 import OverView from "../components/overview";
 import Chat from "../components/chat";
 import AboutUs from "../components/about_us";
+import Meta from "../components/head";
 
 export async function getStaticProps() {
   const res = await fetch(
@@ -28,6 +29,7 @@ const Home = ({ overViewData, moreData }) => {
 
   return (
     <div className="relative">
+      <Meta/>
       {visible && (
         <div
           className={
@@ -57,7 +59,7 @@ const Home = ({ overViewData, moreData }) => {
 
       <header className="relative flex items-center justify-center h-screen sm:mb-12 overflow-hidden">
         <div className="absolute sm:left-10 top-10 z-30 text-4xl font-bold">
-          Promac Engineering
+          <h1>Promac Engineering</h1>
         </div>
         <div className="grid grid-cols-1">
           <div className="relative z-30 text-6xl text-white sm:text-45l font-extrabold text-center">
@@ -76,7 +78,7 @@ const Home = ({ overViewData, moreData }) => {
           className="absolute z-10 w-auto min-w-full min-h-full max-w-none"
         >
           <source
-            src="https://firebasestorage.googleapis.com/v0/b/bito-b4105.appspot.com/o/37427_construction_on_bridge_on_site_in_field_aerial_By_The_Stock_Studio_Artlist_HD.mp4?alt=media&token=90d1af61-c538-4cde-a084-2275181e8dde"
+            src="https://firebasestorage.googleapis.com/v0/b/bitoverflow-d4687.appspot.com/o/37427_construction_on_bridge_on_site_in_field_aerial_By_The_Stock_Studio_Artlist_HD.mp4_alt%3Dmedia%26token%3D90d1af61-c538-4cde-a084-2275181e8dde%20(online-video-cutter.com).mp4?alt=media&token=68eb6cb5-4803-415e-9d3e-8f5f7315dc21"
             type="video/mp4"
           />
           Your browser does not support the video tag.
