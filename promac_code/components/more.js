@@ -8,7 +8,7 @@ const More = (props) => {
   return (
     <div>
       <div className="relative text-black text-6xl font-bold bg-transparent mt-6">
-        MORE.
+        MORE   stuff .
       </div>
       <div className="flex flex-wrap items-center justify-around sm:max-w-7xl sm:py-6">
         {data.map((data) => (
