@@ -44,29 +44,29 @@ const Home = ({ overViewData, moreData }) => {
       {visible ? (
         <div
           onClick={clickHandler}
-          className="fixed bottom-5 right-5 z-50 hover:text-white font-extrabold hover:bg-black rounded-full p-4 opacity-75 cursor-pointer hover:opacity-100 bg-yellow-300 text-black"
+          className="fixed bottom-5 right-5 z-50 hover:text-white font-extrabold hover:bg-yoga-green rounded-full p-4 opacity-75 cursor-pointer hover:opacity-100 bg-yoga-green-2 text-black"
         >
           X
         </div>
       ) : (
         <div
           onClick={clickHandler}
-          className="fixed bottom-5 right-5 z-30 text-white font-extrabold bg-black rounded-full p-4 opacity-75 cursor-pointer hover:opacity-100 hover:bg-yellow-300 hover:text-black"
+          className="fixed bottom-5 right-5 z-30 text-white font-extrabold bg-yoga-green rounded-full p-4 opacity-75 cursor-pointer hover:opacity-100 hover:bg-whitehover:text-black"
         >
           Contact Us
         </div>
       )}
 
       <header className="relative flex items-center justify-center h-screen sm:mb-12 overflow-hidden">
-        <div className="absolute sm:left-10 top-10 z-30 text-4xl font-bold">
-          <h1>Promac Engineering</h1>
+        <div className="absolute sm:left-10 text-yoga-green top-10 z-30 text-4xl font-bold">
+          <h1>Neuro Yoga</h1>
         </div>
         <div className="grid grid-cols-1">
-          <div className="relative z-30 text-6xl text-white sm:text-45l font-extrabold text-center">
-            Your one stop shop
+          <div className="relative z-30 text-6xl text-yoga-green sm:text-45l font-extrabold text-center">
+            Alignment - Breathwork
           </div>
-          <div className="relative z-30 text-6xl text-white sm:text-6l font-extrabold text-center">
-            For all your engineering consulting needs.
+          <div className="relative z-30 text-6xl text-yoga-green sm:text-6l font-extrabold text-center">
+          Mindfulness.
           </div>
         </div>
 
@@ -78,7 +78,7 @@ const Home = ({ overViewData, moreData }) => {
           className="absolute z-10 w-auto min-w-full min-h-full max-w-none"
         >
           <source
-            src="https://firebasestorage.googleapis.com/v0/b/bitoverflow-d4687.appspot.com/o/37427_construction_on_bridge_on_site_in_field_aerial_By_The_Stock_Studio_Artlist_HD.mp4_alt%3Dmedia%26token%3D90d1af61-c538-4cde-a084-2275181e8dde%20(online-video-cutter.com).mp4?alt=media&token=68eb6cb5-4803-415e-9d3e-8f5f7315dc21"
+            src="https://firebasestorage.googleapis.com/v0/b/bitotestsites.appspot.com/o/neuroyoga_bkg_clipped.mp4?alt=media&token=55252647-b97b-4efa-b6e5-9513f98affcd"
             type="video/mp4"
           />
           Your browser does not support the video tag.
@@ -87,74 +87,52 @@ const Home = ({ overViewData, moreData }) => {
       </header>
 
       <main className="flex flex-col items-center justify-center sm:px-20 text-center">
-        <div className="relative mt-6 sm:p-16 text-xl sm:text-6xl text-left">
+        <div className="relative mt-6 text-center sm:p-16 text-xl text-yoga-green sm:text-6xl text-left">
           <div>
-            For all your engineering needs <b>Promac</b> is here
+            Community driven yoga studio focused on well-being through mindfulness and body alignment
           </div>
         </div>
-        <div className="w-full my-14 pb-8 sm:p-8 sm:text-lg font-bold bg-gradient-to-r from-yellow-500 to-orange-500">
-          <div className="font-bold mt-2 text-xl sm:text-4xl text-white p-4">
-            Our Focus Areas
+        <div className="w-full my-14 pb-8 sm:p-8 sm:text-lg font-bold bg-gradient-to-r from-yoga-green to-yoga-green-2">
+          <div className="font-bold  text-xl sm:text-4xl text-white p-4">
+            Our focus 
           </div>
           <div className="flex place-content-center cursor-pointer sm:font-extrabold ">
             <div className="rounded-full py-2 sm:py-2 px-3 sm:px-5 m-2 bg-white">
               <div className="text-black  hover:bg-gradient-to-br hover:to-nft-sky hover:from-nft-aqua hover:text-transparent hover:bg-clip-text">
-                APPs
+                Nuro-Yoga Flow
               </div>
             </div>
             <div className="rounded-full py-2 sm:py-2 px-3 sm:px-5 m-2 bg-white">
               <div className="text-black  hover:bg-gradient-to-br hover:to-nft-sky hover:from-nft-aqua hover:text-transparent hover:bg-clip-text">
-                Civil Engineering
+                Neuro-Yoga Yin
               </div>
             </div>
           </div>
           <div className="flex place-content-center sm:font-extrabold">
             <div className="rounded-full py-2 sm:py-2 px-3 sm:px-5 m-2 bg-white">
               <div className="text-black">
-                Project Managment
+                Mindful Movement 
               </div>
             </div>
             <div className="rounded-full py-2 sm:py-2 px-3 sm:px-5 m-2 bg-white">
               <div className="text-black">
-                Transportation Industry
+                Relieiving Pain
               </div>
             </div>
             <div className="rounded-full py-2 sm:py-2 px-3 sm:px-5 m-2 bg-white">
               <div className="text-black">
-                Bi-national disputes
-              </div>
-            </div>
-            <div className="rounded-full py-2 sm:py-2 px-3 sm:px-5 m-2 bg-white">
-              <div className="text-black">
-                Infrastructure Projects
-              </div>
-            </div>
-          </div>
-          <div className="flex place-content-center cursor-pointer sm:font-extrabold">
-            <div className="rounded-full py-2 sm:py-2 px-3 sm:px-5 m-2 bg-white">
-              <div className="text-black">
-                LATAM
-              </div>
-            </div>
-            <div className="rounded-full py-2 sm:py-2 px-3 sm:px-5 m-2 bg-white">
-              <div className="text-black">
-                Public Private Projects
-              </div>
-            </div>
-            <div className="rounded-full py-2 sm:py-2 px-3 sm:px-5 m-2 bg-white">
-              <div className="text-black">
-                APWA
+                Preventing Injuries
               </div>
             </div>
           </div>
         </div>
 
         <div className="flex relative mt-6 text-4xl sm:text-8xl">
-          <div className="text-black font-extrabold mt-2">Press</div>
+          <div className="text-yoga-green font-extrabold mt-2">Professional endorsements</div>
         </div>
-        <OverView data={overViewData.data} />
+        <More />
         <div className="flex relative mt-6 text-4xl sm:text-8xl">
-          <div className="text-black font-extrabold mt-2">About Us</div>
+          <div className="text-yoga-green font-extrabold mt-2">About Us</div>
         </div>
         <AboutUs/>
 

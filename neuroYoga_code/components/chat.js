@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import { Formik, Field, Form } from 'formik';
 import * as Yup from 'yup';
-import { FaTwitterSquare } from 'react-icons/fa';
+import { FaInstagram } from 'react-icons/fa';
 
 const validationSchema = Yup.object().shape({
     name: Yup.string(),
@@ -66,24 +66,25 @@ const Chat = props => {
                 onSubmit={values => submitHandler(values)}
                 render={({ errors, touched }) => (
                     <Form className='mt-2 font-bold'>
-                        <div className='pb-4'>Whether you want to hire us, work with us, or invest in us shoot us a note/ schedule a time to chat:</div>
+                        <div className='pb-4 text-center'>Let us know if you have any question!:</div>
                         <div className='text-center pb-4'>
-                            Want to schedule a chat with us right now?
+                            Want to schedule your first class?
                             <div className='mt-2'>
-                                <a href={'https://calendly.com/bitoverflow/quickchat'} target="_blank" rel="noopener noreferrer" className='text-lg bg-black text-white rounded-lg p-2 hover:text-blue-400 cursor-pointer'>
+                                <a href={'https://calendly.com/bitoverflow/quickchat'} target="_blank" rel="noopener noreferrer" className='text-lg bg-yoga-green mt-2 text-black rounded-lg p-2 hover:text-blue-400 cursor-pointer'>
                                     Click Here
                                 </a>
                             </div>                            
                         </div>
                         <div className='grid place-items-center'>
-                            Hit us up on Twitter:
-                            <a href={'https://twitter.com/BitoverflowLabs'} target="_blank" rel="noopener noreferrer" className='text-5xl hover:text-blue-400 cursor-pointer'>
-                                <FaTwitterSquare />
+                            Hit us up on Instagram:
+                            <a href={'https://www.instagram.com/neuroyogainst/'} target="_blank" rel="noopener noreferrer" className='text-5xl hover:text-yoga-green cursor-pointer'>
+                                <FaInstagram />
                             </a>
                         </div>                            
                         <div className='text-lg text-center pt-4 pb-8'>
-                            Reach out directly:
-                            customer@bitoverflow.org
+                            Give us a call!
+                            <br></br>
+                            708-212-1156
                         </div>
                         {
                             visible && 

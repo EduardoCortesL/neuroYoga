@@ -13,8 +13,9 @@ module.exports = {
         'nft-sky': '#9055FF',
         'nft-aqua': '#13E2DA',
         'nft-orange': '#F06966',
-        'nft-orange-light': '#FAD6A6'
-
+        'nft-orange-light': '#FAD6A6',
+        'yoga-green': '#7FE0B7',
+        'yoga-green-2': '#3cd696',
       },
       keyframes: {
         fadeIn : {
