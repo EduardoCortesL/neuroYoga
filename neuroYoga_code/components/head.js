@@ -20,7 +20,7 @@ const Meta = ({title, keywords, description, ogTitle, ogType, ogUrl, ogImage}) =
      title: "Neuro Yoga",
      keywords: "engineering consulting mexico usa civil engineering construction public private partnerships",
      description: "Promac Engineering is your go to place for all of you civil/construction engineering needs.",
-     ogTitle: "Promac Engineering",
+     ogTitle: "Neuro Yoga",
      ogImage: "https://firebasestorage.googleapis.com/v0/b/bitotestsites.appspot.com/o/neuro_yoga_logo.png?alt=media&token=7fb48efa-2548-4db6-bd68-19adc9e65c3c"
  }
 
