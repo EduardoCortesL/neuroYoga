@@ -83,7 +83,7 @@ const Home = ({ overViewData, moreData }) => {
           />
           Your browser does not support the video tag.
         </video>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.ico"/>
       </header>
 
       <main className="flex flex-col items-center justify-center sm:px-20 text-center">
