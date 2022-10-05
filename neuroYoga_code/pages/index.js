@@ -109,17 +109,17 @@ const Home = ({ overViewData, moreData }) => {
             </div>
           </div>
           <div className="flex place-content-center sm:font-extrabold">
-            <div className="rounded-full py-2 sm:py-2 px-3 sm:px-5 m-2 bg-white">
+            <div className="rounded-full p-2 m-2 bg-white">
               <div className="text-black">
                 Mindful Movement 
               </div>
             </div>
-            <div className="rounded-full py-2 sm:py-2 px-3 sm:px-5 m-2 bg-white">
+            <div className="rounded-full p-2 m-2 bg-white">
               <div className="text-black">
                 Relieiving Pain
               </div>
             </div>
-            <div className="rounded-full py-2 sm:py-2 px-3 sm:px-5 m-2 bg-white">
+            <div className="rounded-full p-2 m-2 bg-white">
               <div className="text-black">
                 Preventing Injuries
               </div>
