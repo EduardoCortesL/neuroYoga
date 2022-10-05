@@ -86,8 +86,8 @@ const Home = ({ overViewData, moreData }) => {
         <link rel="icon" href="/favicon.ico"/>
       </header>
 
-      <main className="flex flex-col items-center justify-center sm:px-20 text-center">
-        <div className="relative mt-6 text-center sm:p-16 text-xl text-yoga-green sm:text-6xl text-left">
+      <main className="flex flex-col p-5 items-center justify-center sm:px-20 text-center">
+        <div className="relative p-5 mt-6 text-center sm:p-16 text-xl text-yoga-green sm:text-6xl text-left">
           <div>
             Community driven yoga studio focused on well-being through mindfulness and body alignment
           </div>

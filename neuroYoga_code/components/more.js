@@ -6,7 +6,7 @@ const More = (props) => {
   const data = props.data;
 
   return (
-    <div className="flex flex-wrap items-center items-stretch justify-around max-w-7xl mt-6 sm:w-full">
+    <div className="flex flex-wrap items-center items-stretch p-6 justify-around max-w-7xl mt-6 sm:w-full">
       <a href=""
         className="p-6 mt-6 border w-96 rounded-xl hover:text-yoga-green focus:text-yoga-green">
         <h3 className="text-2xl font-bold text-center">Concetta Forchetti MD</h3>
