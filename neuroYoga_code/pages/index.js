@@ -58,14 +58,14 @@ const Home = ({ overViewData, moreData }) => {
       )}
 
       <header className="relative flex items-center justify-center h-screen sm:mb-12 overflow-hidden">
-        <div className="absolute sm:left-10 text-yoga-green top-10 z-30 text-4xl font-bold">
+        <div className="absolute rounded-md bg-yoga-green sm:left-10 text-white top-10 z-30 text-3xl font-bold">
           <h1>Neuro Yoga</h1>
         </div>
         <div className="grid grid-cols-1">
-          <div className="relative z-30 text-6xl text-yoga-green sm:text-45l font-extrabold text-center">
+          <div className="relative z-30 text-6xl text-white sm:text-45l font-extrabold text-center">
             Alignment - Breathwork
           </div>
-          <div className="relative z-30 text-6xl text-yoga-green sm:text-6l font-extrabold text-center">
+          <div className="relative z-30 text-6xl text-white sm:text-6l font-extrabold text-center">
           Mindfulness.
           </div>
         </div>
